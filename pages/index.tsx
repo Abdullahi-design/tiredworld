@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         <a href="http://meet.google.com/new">
           <button className='bg-green-400 p-4 rounded-xl shadow-xl text-base hover:hidden'>Speak to someone</button>
         </a>
-          <button className='bg-white p-4 rounded-xl shadow-xl text-xl hover:flex'>😂</button>
+          <button className='bg-white p-4 rounded-xl shadow-xl text-xl hover:text-5xl hover:flex'>😂</button>
       </div>
 
       
