@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       <div className='text-2xl text-center'>
         <p>Are you tired??</p>
         <p className='my-4'>Suicide is not an option</p>
-        <p className='mb-4'>Calm down!</p>
+        <p className='mb-4 text-red-500'>Calm down!</p>
         <a href="http://meet.google.com/new">
           <button className='bg-green-400 p-4 rounded-xl shadow-xl text-base hover:hidden'>Speak to someone</button>
         </a>
