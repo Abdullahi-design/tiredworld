@@ -29,7 +29,7 @@ const connection = () => {
                     <p className='text-red-500 text-xl'>Paste Url here</p>
                     <input type="url" name="" id="" className='border border-green-400 md:p-4 p-2 md:px-12 px-8 outline-none rounded-2xl my-2'/>
                 </div>
-                <a href="#">
+                <a href="/connectedPeople">
                     <button className='bg-green-400 hover:bg-green-500 text-white md:p-4 p-2 rounded-xl shadow-xl text-xl'>wait for someone to join you</button>
                 </a>
             </div>
