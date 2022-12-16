@@ -12,15 +12,15 @@ const connection = () => {
                 <div className=' text-center'> 
                     <h2 className='text-green-500 text-xl pb-3'>Join a call</h2>   
                     <a href="http://meet.google.com/new" target='_blank'>
-                        <button className='bg-green-400 text-white md:p-4 p-2 rounded-xl shadow-xl text-xl w-full'>Create call link</button>
+                        <button className='bg-green-400 hover:bg-green-500 text-white md:p-4 p-2 rounded-xl shadow-xl text-xl w-full'>Create call link</button>
                     </a>           
-                    <h2 className='text-red-500 text-xl py-3'>Copy your call link/url</h2>
-                    <Image src={navUrl} alt="" />
+                    <h2 className='text-red-500 text-xl py-3'>Copy from top url browser</h2>
+                    <Image src={navUrl} alt="browser call url" />
                 </div>
                 <p className='text-red-500 md:text-3xl text-2xl text-center'>OR</p>
                 <div>
-                    <p className='text-red-500 text-xl'>Copy from top url browser</p>
-                    <Image src={mainUrl} alt="" />
+                    <p className='text-red-500 text-xl pb-3'>Copy your call link/url</p>
+                    <Image src={mainUrl} alt="call url" />
                 </div>
             </div>
 
@@ -30,7 +30,7 @@ const connection = () => {
                     <input type="url" name="" id="" className='border border-green-400 md:p-4 p-2 md:px-12 px-8 outline-none rounded-2xl my-2'/>
                 </div>
                 <a href="#">
-                    <button className='bg-green-400 text-white md:p-4 p-2 rounded-xl shadow-xl text-xl'>wait for someone to join you</button>
+                    <button className='bg-green-400 hover:bg-green-500 text-white md:p-4 p-2 rounded-xl shadow-xl text-xl'>wait for someone to join you</button>
                 </a>
             </div>
         </div>
