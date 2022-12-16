@@ -14,8 +14,8 @@ const Home: NextPage = () => {
         <p>Are you tired??</p>
         <p className='my-4'>Suicide is not an option</p>
         <p className='mb-4 text-red-500'>Calm down!</p>
-        <a href="http://meet.google.com/new">
-          <button className='bg-green-400 p-4 rounded-xl shadow-xl text-base hover:hidden'>Speak to someone</button>
+        <a href="/connection">
+          <button className='bg-green-400 text-white p-4 rounded-xl shadow-xl text-base'>Speak to someone</button>
         </a>
           <button className='bg-white p-4 rounded-xl shadow-xl text-xl hover:text-5xl hover:flex'>😂</button>
       </div>
