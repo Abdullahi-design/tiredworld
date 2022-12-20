@@ -15,12 +15,12 @@ const connection = () => {
                         <button className='bg-green-400 hover:bg-green-500 text-white md:p-4 p-2 rounded-xl shadow-xl text-xl w-full'>Create call link</button>
                     </a>           
                     <h2 className='text-red-500 text-xl py-3'>Copy from top url browser</h2>
-                    <Image src={navUrl} alt="browser call url" />
+                    <Image src={navUrl} alt="browser call url" className='shadow-2xl'/>
                 </div>
                 <p className='text-red-500 md:text-3xl text-2xl text-center'>OR</p>
                 <div>
                     <p className='text-red-500 text-xl pb-3'>Copy your call link/url</p>
-                    <Image src={mainUrl} alt="call url" />
+                    <Image src={mainUrl} alt="call url" className='shadow-2xl' />
                 </div>
             </div>
 
